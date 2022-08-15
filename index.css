@@ -1,0 +1,30 @@
+
+
+@font-face {
+font-family: 'SEGA LOGO FONT';
+font-style: normal;
+font-weight: normal;
+src: local('SEGA LOGO FONT'), url('SEGA.woff') format('woff');
+}
+
+body{
+	background: linear-gradient(to right, rgb(214, 136, 0), rgb(255, 0, 0))
+}
+
+.name,.email{
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
+	color: white;
+}
+
+.mrrobot{
+	font-family: 'SEGA LOGO FONT';
+	font-weight: 200;
+	color: white;
+}
+
+
+.container{
+	display: grid;
+	grid-template-columns: 400px 400px 400px 400px;
+	justify-content: center;
+}
